@@ -1,0 +1,28 @@
+.slick-carousel{
+  height: 14rem;
+  margin: 2rem 0;
+  width: 100%;
+  border: 1px;
+}
+
+
+.slick-list {margin: 0 4px;}
+.slick-slide>div {padding: 0 5px;}
+
+.slick-prev:before {
+  color: red;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  color: red;
+  font-size: 30px;
+}
+
+.slick-prev{
+  background: red;
+}
+
+.slick-next{
+  background: red;
+}

@@ -1,0 +1,41 @@
+.buttonAnimation{
+    width: 36px;
+    height: 36px;
+    margin:  0 48px;
+    background-color: $color-button;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+
+    // animation: animation-button 2s infinite;
+
+    .buttonAnimation-1{
+        width: 56px;
+        height: 56px;
+        background-color: $color-button;
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        opacity: 10%;
+        top: -25%;
+        left: -25%;
+        animation: pulse 2s linear infinite;
+    }
+    
+
+    // Keyframes
+    @keyframes pulse{
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.5) ;
+        }
+        
+        100% {
+            transform: scale(1);
+        }
+    }
+
+}

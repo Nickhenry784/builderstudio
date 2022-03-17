@@ -1,0 +1,13 @@
+@import "./abstracts/variables";
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+
+@import "./base/animations";
+@import "./base/base";
+@import "./base/utils";
+
+@import "./components/loading-screen";
+@import "./components/buttonAnimation";
+@import "./components/slick-carousel";
+
+@import "./pages/home";
